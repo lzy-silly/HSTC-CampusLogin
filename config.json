@@ -1,0 +1,29 @@
+{
+  "account": {
+    "username": "你的账号",
+    "password": "你的密码"
+  },
+  "network": {
+    "portalUrl": "https://rz.hstc.edu.cn/",
+    "gatewayHost": "rz.hstc.edu.cn",
+    "gatewayPort": 802,
+    "gatewayIp": "192.168.2.34",
+    "casBaseUrl": "https://hscas.hstc.edu.cn",
+    "checkUrl": "https://www.baidu.com",
+    "clientIp": "",
+    "clientMac": "000000000000"
+  },
+  "options": {
+    "checkMode": "redirect",
+    "checkIntervalSec": 30,
+    "loginRetries": 3,
+    "retryIntervalSec": 10,
+    "requestTimeoutSec": 30,
+    "portalDomains": ["rz.hstc.edu.cn", "192.168.2.34", "hscas.hstc.edu.cn"]
+  },
+  "features": {
+    "autoReconnect": true,
+    "keepAlive": true,
+    "autoStart": true
+  }
+}
